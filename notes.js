@@ -1,0 +1,5 @@
+// 1. React is for creating and managing components. ReactDOM is used to interact with the actual DOM
+// 2. App is a class. <App /> is an instance of App
+// 3. always one component per file
+// 4. declare class component when you need it to have internal-record-keeping, aware of itself and what happened when its rendered
+// 5. React and Redux are separate. React manages views and Redux manages data(state). react-redux brings them together and connect the two to form a container. the connect function takes a function and a component to form a container.Containers are aware of the states that Redux maintains. mapStateToProps is the glue between React and Redux. The object returned in the mapStateToProps function will be assigned as the props for the container/component. When a state changes, the container will re-render. 
